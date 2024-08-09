@@ -29,7 +29,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100vw;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    background: linear-gradient(135deg, rgb(249 202 148 / 40%), rgb(255 120 120 / 40%));
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     border: 1px soid rgba(255, 255, 255, 0.18);
@@ -58,6 +58,15 @@ nav {
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.32);
     transition: 0.3s;
 }
+
+/* @media (max-width:500px){
+    .nav-menu li a img{
+        filter: invert(100%);
+    }
+    .burger1{
+        filter: invert(100%);
+    }
+} */
 
 .nav-menu li a span {
     display: none;
